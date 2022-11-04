@@ -1,14 +1,6 @@
-# 翻强服务,工具下载
+# 翻强服务,工具下载 1.1
 
 # 翻强服务 工具下载
-
-## ssr-win
-
-http://xyzsetup.dlhis.com/isl-ShadowsocksR-4.7.0.1-win.7z
-
-## ssr-android
-
-http://xyzsetup.dlhis.com/shadowsocksr-android-3.5.3.apk
 
 ## clash-android
 
@@ -21,3 +13,7 @@ https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.
 ## clash-win
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.2.6
+
+## opera 浏览器 访问境外网站,请勿使用国产浏览器
+
+https://blserver01-generic.pkg.coding.net/amy/genpub/isl-opera-Android.apk?version=6
