@@ -8,10 +8,10 @@
 
 # 翻强服务 工具下载
 
-## clash ios 订阅操作设置(已有安装小火箭,此链接为操作说明)
+##  iPhone iOS 小火箭-订阅操作设置(已有安装小火箭,此链接为操作说明)
 https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 
-## clash-android
+## Android 手机
 
 http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
 
@@ -19,7 +19,7 @@ http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.exe?version=latest
 
-## clash-win 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
+## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
 下载地址: 
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.8.x64.Setup.exe?version=latest
