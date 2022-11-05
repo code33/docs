@@ -1,5 +1,11 @@
 # 翻强服务,工具下载 1.1
 
+### 申请订阅链接
+#### 请联系邮箱orSkype:
+   code0515@outlook.com
+#### 或者 discord 
+   https://discord.gg/J5Z7HMFq
+
 # 翻强服务 工具下载
 
 ## clash ios 订阅操作设置(已有安装小火箭,此链接为操作说明)
