@@ -2,6 +2,9 @@
 
 # 翻强服务 工具下载
 
+## clash ios 订阅操作设置(已有安装小火箭,此链接为操作说明)
+https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
+
 ## clash-android
 
 http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
