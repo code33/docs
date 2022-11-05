@@ -1,5 +1,10 @@
 # iOS系统小火箭配置订阅链接,操作说明
 
+也可以直接点这里👇去推特看视频操作:
+
+https://twitter.com/BunmJyo/status/1587039706981638144?s=20&t=PJiaZEHV4ZYFVzE8ZNAJHw
+
+
 进入后右上角＋号点击后
 进入到添加节点, 选择 Subscribe 类型
 ![ssr_select_sub.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667639263580/AcR5VEFyM.jpg align="left")
