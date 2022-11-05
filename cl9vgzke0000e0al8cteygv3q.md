@@ -29,7 +29,7 @@ https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.8.x64.Set
 导入订阅操作
 
 ![clash_setting.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667610032128/hJDjFjXMA.jpg align="left")
-如图,主界面配置开关
+如图,主界面配置开关,增强模式不要点亮,其它2个点亮 
 ![disablePlus.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667609018771/YAMcGCbRg.jpg align="left")
 
 ## opera 浏览器 访问境外网站,请勿使用国产浏览器
