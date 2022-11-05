@@ -8,8 +8,11 @@
 
 # 翻强服务 工具下载
 
-##  iPhone iOS 小火箭-订阅操作设置(已有安装小火箭,此链接为操作说明)
-https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
+##  iPhone iOS 小火箭-订阅操作设置(已有安装小火箭,此链接为2篇差不多的操作说明)
+
+iOS教程一: https://blog.grpchub.cc/ios
+
+iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 
 ## Android 手机
 
