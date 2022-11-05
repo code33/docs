@@ -11,8 +11,12 @@ http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
 https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.exe?version=latest
 
 ## clash-win 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
-
+下载地址: 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.2.6
+
+导入订阅操作
+
+![clash_setting.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667610032128/hJDjFjXMA.jpg align="left")
 如图,主界面配置开关
 ![disablePlus.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667609018771/YAMcGCbRg.jpg align="left")
 
