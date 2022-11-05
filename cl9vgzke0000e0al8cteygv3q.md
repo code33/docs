@@ -13,6 +13,8 @@ https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.
 ## clash-win 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.2.6
+如图,主界面配置开关
+![disablePlus.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667609018771/YAMcGCbRg.jpg align="left")
 
 ## opera 浏览器 访问境外网站,请勿使用国产浏览器
 
