@@ -26,9 +26,10 @@ https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.
 ## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
 clash.net-下载地址: 
 
-https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.8.x64.Setup.exe?version=latest
+https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.2.6
+
 注意这是X64版本;
-老旧电脑32位的x86版本请到这里自行下载 https://www.6yit.com/5312.html 
+
 
 导入订阅操作
 
