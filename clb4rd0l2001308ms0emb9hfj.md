@@ -1,6 +1,10 @@
 # postgresql 存储过程函数 随机字符指定规则生成
 
 内容比较多,可以自己逐一拨开,也可以一股脑的全部执行;
+文件下载地址:
+[FileDownload-ClickHere](https://blserver01-generic.pkg.coding.net/amy/genpub/db-init-script.sql?version=FR022343H48)
+
+
 使用方法后续给贴上
 ```
 DO $$ begin raise notice '%',''||'========================== 华丽的标题分割线 ======base36_encode===================='; end; $$;
