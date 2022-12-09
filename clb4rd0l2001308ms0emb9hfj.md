@@ -8,39 +8,7 @@
 使用方法后续给贴上
 ```
 DO $$ begin raise notice '%',''||'========================== 华丽的标题分割线 ======base36_encode===================='; end; $$;
-
---create schema IF NOT EXISTS  activiti; comment on schema activiti is 'activiti业务模块';
-
---create schema IF NOT EXISTS  amycore; comment on schema amycore is 'protoPpart业务核心模块';
-
---create schema IF NOT EXISTS auth; comment on schema auth is '鉴权模块';
-
---create schema IF NOT EXISTS  betty; comment on schema betty is '佣金储值模块';
-
---create schema IF NOT EXISTS  promo; comment on schema promo is '推广收录模块';
-
--- promo
--- promo-batch  批次的增删查改
------ end-time      此批优惠码-有效截止日期
------ code-count    本批次的发行数量-优惠码的数量
------ amount    本批次的发行金额-优惠码的金额
------ create-by-usn   批次的发行人 usn
------ effc_times  可用次数
------ used_times 已用次数
--- promo-code  优惠码码基于批次的发行代金券
------ promote  邀请人/介绍人
------ invitee  受邀人/被邀人
--- promo-scanrecord 扫码记录
--- promo-writeoff 优惠码核销记录
------ contact 手机号/微信号/电子邮箱
------ order_sn 对应的订单序号
------ order_code 对应的订单编号
--- promo-send
------ target_type email phone
------ target_no   emailAddr phoneNumber
------ target_usn  usn
-
-
+ -- 将int整型数值转为字符串型的36进制
 CREATE OR REPLACE FUNCTION base36_encode(IN digits bigint, IN min_width int = 0)
    RETURNS varchar AS $$
 DECLARE
