@@ -28,13 +28,15 @@ http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
 
 ## windows10.64位-dotnet5类库环境(安装win版clash必备工具,请先下载安装)
 
-windows系统安装必备~ .net依赖环境下载地址: https://blserver01-generic.pkg.coding.net/amy/genpub/dotnet-sdk-5.0.408-win-x64.exe?version=latest
+windows系统安装必备~ .net依赖环境下载地址:
+
+[https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer)
 
 ## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
 
 clash.net-下载地址:
 
-https://blserver01-generic.pkg.coding.net/amy/genpub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.2.6
+[http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe](http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe)
 
 注意这是X64版本;
 
