@@ -48,6 +48,6 @@ clash.net-下载地址:
 
 ![disablePlus.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667609018771/YAMcGCbRg.jpg align="left")
 
-## opera 浏览器 访问境外网站,请勿使用国产浏览器
+## android-opera 浏览器 访问境外网站,请勿使用国产浏览器
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-opera-Android.apk?version=6
