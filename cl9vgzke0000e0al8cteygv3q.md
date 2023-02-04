@@ -10,6 +10,10 @@ code0515@outlook.com
 
 https://discord.gg/J5Z7HMFq
 
+或者wx:
+
+code33
+
 # 翻强服务 工具下载
 
 ## iPhone iOS 小火箭-订阅操作设置(已有安装小火箭,此链接为2篇差不多的操作说明)
