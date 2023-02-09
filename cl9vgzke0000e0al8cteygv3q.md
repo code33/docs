@@ -42,6 +42,10 @@ clash.net-下载地址:
 
 [http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe](http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe)
 
+.net版下载地址2:
+
+[https://grpc-generic.pkg.coding.net/a0/pub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.7.1](https://grpc-generic.pkg.coding.net/a0/pub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.7.1)
+
 注意这是X64版本;
 
 导入订阅操作
