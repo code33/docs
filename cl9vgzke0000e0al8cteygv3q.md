@@ -40,7 +40,7 @@ windows系统安装必备~ .net依赖环境下载地址:
 
 clash.net-下载地址:
 
-[http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe](http://xyzsetup.dlhis.com/isl-Clash.NET.1.2.6.x64.Setup.exe)
+[http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip](http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip)
 
 .net版下载地址2:
 
