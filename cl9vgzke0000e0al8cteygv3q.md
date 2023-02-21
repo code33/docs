@@ -6,13 +6,11 @@
 
 code0515@outlook.com
 
-#### 或者 discord
+#### 或者 discord:
 
-https://discord.gg/J5Z7HMFq
+**纯洁#7690**
 
-或者wx:
-
-code33
+## **自我介绍**
 
 # 翻强服务 工具下载
 
