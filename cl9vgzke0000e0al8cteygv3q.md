@@ -16,6 +16,8 @@ code0515@outlook.com
 
 ## iPhone iOS 小火箭-订阅操作设置(已有安装小火箭,此链接为2篇差不多的操作说明)
 
+iOS没有安装小火煎的可以联系我免费协助安装,提前退出你的appid
+
 iOS教程一: https://blog.grpchub.cc/ios
 
 iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
