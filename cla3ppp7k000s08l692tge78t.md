@@ -1,5 +1,5 @@
 ---
-title: "iOS系统小火箭配置订阅链接,操作说明"
+title: "iOS系统小火箭购买 配置 订阅链接,操作说明"
 datePublished: Sat Nov 05 2022 09:17:37 GMT+0000 (Coordinated Universal Time)
 cuid: cla3ppp7k000s08l692tge78t
 slug: ios
@@ -27,13 +27,13 @@ tags: ios, 5bcp54gr566t, 6k6i6zif6k6572u
     
 6. 纯洁的email: code0515@gmail.com, 支付宝(code0515@gmail.com)付款RMB10元后,发信联系,支付宝 , 邮箱同号
     
-7. 支付宝付款时,将你的vx or 邮箱地址填入付款备注(很重要)
+7. 支付宝付款时,将你的vx or
     
 8. 邮箱地址填入付款备注(很重要)
     
-9. 邮箱地址填入付款备注(很重要)
+9. vx or 邮箱地址填入付款备注(很重要)
     
-10. 邮箱地址填入付款备注(很重要)
+10. vx or 邮箱地址填入付款备注(很重要)
     
 
 也可以直接点这里👇去推特看视频操作:
