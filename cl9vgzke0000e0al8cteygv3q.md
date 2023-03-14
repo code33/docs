@@ -1,4 +1,13 @@
-# 翻强服务,工具下载 1.1
+---
+title: "翻强服务,工具下载 1.2"
+datePublished: Sun Oct 30 2022 14:51:11 GMT+0000 (Coordinated Universal Time)
+cuid: cl9vgzke0000e0al8cteygv3q
+slug: 11
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667141496276/gpq35HfhE.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1667141455654/36Q20uiw9.png
+tags: ssr, clash
+
+---
 
 ### 申请订阅链接
 
@@ -27,6 +36,8 @@ iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 [https://github.com/yichengchen/clashX/releases](https://github.com/yichengchen/clashX/releases)
 
 ## Android 手机
+
+注意: android用户不要用最新的版本,也不要从Google Play安装,它们有莫名其妙的bug,不愿意用我的这个版本话,可以自行前往github clash 项目 发布页找 2.4.14版本下载apk手动安装
 
 http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
 
