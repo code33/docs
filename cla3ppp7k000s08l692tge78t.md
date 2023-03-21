@@ -27,6 +27,8 @@ tags: ios, 5bcp54gr566t, 6k6i6zif6k6572u
     
 6. 纯洁的email: code0515@gmail.com, 支付宝(code0515@gmail.com)付款RMB10元后,发信联系,支付宝 , 邮箱同号
     
+    1. 连同梯子一起购置一共只需￥22
+        
 7. 支付宝付款时,将你的vx or
     
 8. 邮箱地址填入付款备注(很重要)
