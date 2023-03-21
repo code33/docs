@@ -25,7 +25,7 @@ tags: ios, 5bcp54gr566t, 6k6i6zif6k6572u
     
 5. 验证手机: (找纯洁索取)
     
-6. 纯洁的email: code0515@gmail.com, 支付宝(code0515@gmail.com)付款RMB10元后,发信联系,支付宝 , 邮箱同号
+6. 纯洁的email支付宝同号: code0515@gmail.com, 付款RMB12元后or含一个月月费32元
     
     1. 连同梯子一起购置一共只需￥22
         
