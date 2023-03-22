@@ -47,7 +47,7 @@ windows系统安装必备~ .net依赖环境下载地址:
 
 [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer)
 
-## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
+## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但<mark>请勿</mark>打开它的"增强模式"
 
 clash net-下载地址:
 
