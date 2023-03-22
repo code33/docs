@@ -49,7 +49,7 @@ windows系统安装必备~ .net依赖环境下载地址:
 
 ## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但请勿打开它的"增强模式"
 
-clash.net-下载地址:
+clash net-下载地址:
 
 [http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip](http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip)
 
