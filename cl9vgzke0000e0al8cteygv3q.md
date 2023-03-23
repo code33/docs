@@ -11,9 +11,9 @@ tags: ssr, clash
 
 ### 申请订阅链接
 
-#### 请联系邮箱orSkype:
+#### 请联系邮箱:
 
-code0515@outlook.com
+code0515@gmail.com
 
 #### 或者 discord:
 
