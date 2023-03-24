@@ -19,6 +19,8 @@ code0515@gmail.com
 
 **纯洁#7690**
 
+这也是我的入口地址更短更好记 [sub.kshp.cc](http://sub.kshp.cc)
+
 ## **自我介绍**
 
 # 翻强服务 工具下载
