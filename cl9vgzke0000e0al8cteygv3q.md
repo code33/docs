@@ -72,3 +72,7 @@ clash net-下载地址:
 ## android-opera 浏览器 访问境外网站,请勿使用国产浏览器
 
 https://blserver01-generic.pkg.coding.net/amy/genpub/isl-opera-Android.apk?version=6
+
+## windows-opera浏览器 访问境外网站,请勿使用国产浏览器
+
+[https://code33-generic.pkg.coding.net/ada/gen/opera\_beta\_x64.exe?version=1](https://code33-generic.pkg.coding.net/ada/gen/opera_beta_x64.exe?version=1)
