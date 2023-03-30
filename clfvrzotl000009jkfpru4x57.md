@@ -4,6 +4,7 @@ seoTitle: "clash for Windows from android"
 datePublished: Thu Mar 30 2023 23:57:27 GMT+0000 (Coordinated Universal Time)
 cuid: clfvrzotl000009jkfpru4x57
 slug: share2win
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680220688400/cb87064e-2e73-42db-b9d4-91ac5f57bc18.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1680220618339/389c080e-292e-4b54-86ed-939ed26e9f7e.webp
 tags: clash
 
