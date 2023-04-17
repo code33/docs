@@ -21,6 +21,10 @@ code0515@gmail.com
 
 这也是我的入口地址更短更好记 [sub.kshp.cc](http://sub.kshp.cc)
 
+ios小火箭配置教程 👉 blog.grpchub.cc/ios
+
+chatGPT登入操作教程 👉 blog.grpchub.cc/gpt
+
 ## **自我介绍**
 
 # 翻强服务 工具下载
