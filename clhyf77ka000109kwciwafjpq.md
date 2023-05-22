@@ -3,6 +3,7 @@ title: "postgresql日期计算 date calculation"
 datePublished: Mon May 22 2023 05:42:06 GMT+0000 (Coordinated Universal Time)
 cuid: clhyf77ka000109kwciwafjpq
 slug: postgresql-date-calculation
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684734407342/05daf4ef-1d01-4a8c-96e1-54675254de4c.png
 tags: postgresql, date-calculation
 
 ---
