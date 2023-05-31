@@ -18,12 +18,14 @@ tags: clash
     
 3. 按照如图所示配置: android 手机clash 打开后进入 "配置" -&gt; "覆写" 即可看到诸多参数
     
-4. [如图所示](https://grpc-generic.pkg.coding.net/a0/pub/clash-android-share-config-Screenshot_2023-03-31-07-15-31-077_Clash.png?version=v1) 👈点击它
+4. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685503493235/cd030546-8ebf-4703-8d66-69776f7c1c22.png align="center")
     
-5. 电脑win端 按左下角的 win花键输入 proxy -&gt; 回车 如图所示 配置对应的参数后点击保存,注意这个IP地址得要是你手机的ip哦 ,一般的手机在WiFi清单中对某个WiFi选项的 小箭头 -&gt; 点击进去 即可查到你的WiFi局域网内的IP
+5. 配置图下载 [如图](https://grpc-generic.pkg.coding.net/a0/pub/clash-android-share-config-Screenshot_2023-03-31-07-15-31-077_Clash.png?version=v1) 👈点击它
     
-6. 注意手机得和WiFi同一个网段
+6. 电脑win端 按左下角的 win花键输入 proxy -&gt; 回车 如图所示 配置对应的参数后点击保存,注意这个IP地址得要是你手机的ip哦 ,一般的手机在WiFi清单中对某个WiFi选项的 小箭头 -&gt; 点击进去 即可查到你的WiFi局域网内的IP
     
-7. 还有更简单的就是 手机小猫咪启用后,开热点分享给你家庭的其它设备.
+7. 注意手机得和WiFi同一个网段
+    
+8. 还有更简单的就是 手机小猫咪启用后,开热点分享给你家庭的其它设备.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680220202426/7535ea6d-1a11-4940-a6ee-d9a3049c0fd6.png align="center")
