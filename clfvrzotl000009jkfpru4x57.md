@@ -26,6 +26,4 @@ tags: clash
     
 7. 注意手机得和WiFi同一个网段
     
-8. 还有更简单的就是 手机小猫咪启用后,开热点分享给你家庭的其它设备.
-    
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680220202426/7535ea6d-1a11-4940-a6ee-d9a3049c0fd6.png align="center")
