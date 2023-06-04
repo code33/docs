@@ -1,10 +1,18 @@
-## grpc statusCode最佳实践(个人理解)
+---
+title: "grpc statusCode最佳实践(个人理解)"
+seoTitle: "grpc"
+seoDescription: "grpc"
+datePublished: Wed Sep 14 2022 05:26:04 GMT+0000 (Coordinated Universal Time)
+cuid: cl816jmx001ga2fnva7831rta
+slug: grpcstatuscode
 
-        create by jyo on 14/09/2022
-        concat: code0515@outlook.com
+---
+
+create by jyo on 14/09/2022 concat: code0515@outlook.com
 
 其中的各个解释都是本人自己从业数年的理解;若有更优欢迎补充
-```
+
+```sql
 
 enum EmStatusCode {
    OK = 0; // 正常
