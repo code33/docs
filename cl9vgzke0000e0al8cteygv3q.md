@@ -13,7 +13,7 @@ tags: ssr, clash
 
 #### 请联系邮箱:
 
-code0515@gmail.com
+code9627@gmail.com
 
 #### 或者 discord:
 
