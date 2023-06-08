@@ -63,11 +63,7 @@ windows系统安装必备~ .net依赖环境下载地址:
 
 clash net-下载地址:
 
-[http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip](http://ax.ifoodin.com/install/isl-Clash.NET.1.2.6.x64.Setup.zip)
-
 .net版下载地址2:
-
-[https://grpc-generic.pkg.coding.net/a0/pub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.7.1](https://grpc-generic.pkg.coding.net/a0/pub/isl-Clash.NET.1.2.6.x64.Setup.exe?version=1.7.1)
 
 注意这是X64版本;
 
@@ -81,8 +77,4 @@ clash net-下载地址:
 
 ## android-opera 浏览器 访问境外网站,请勿使用国产浏览器
 
-https://blserver01-generic.pkg.coding.net/amy/genpub/isl-opera-Android.apk?version=6
-
 ## windows-opera浏览器 访问境外网站,请勿使用国产浏览器
-
-[https://code33-generic.pkg.coding.net/ada/gen/opera\_beta\_x64.exe?version=1](https://code33-generic.pkg.coding.net/ada/gen/opera_beta_x64.exe?version=1)
