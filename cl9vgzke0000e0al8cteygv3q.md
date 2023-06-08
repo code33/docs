@@ -53,8 +53,6 @@ iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 
 android用户不要用最新的版本,也不要从Google Play安装,它们有莫名其妙的bug,不愿意用我的这个版本话,可以自行前往github clash 项目 发布页找 2.4.14版本下载apk手动安装
 
-http://xyzsetup.dlhis.com/isl-cfa-2.4.14-foss-arm64-v8a-release.apk
-
 ## windows10.64位-dotnet5类库环境(安装win版clash必备工具,请先下载安装)
 
 windows系统安装必备~ .net依赖环境下载地址:
