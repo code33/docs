@@ -51,6 +51,8 @@ iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 
 华为 荣耀 鼎桥 有后门会被监控 喝茶 罚款
 
+android猫咪点此进入网盘下载👇:
+
 [https://www.mediafire.com/file/y8d1wn970bm6h89/isl-cfa-2.4.14-foss-arm64-v8a-release.apk/file](https://www.mediafire.com/file/y8d1wn970bm6h89/isl-cfa-2.4.14-foss-arm64-v8a-release.apk/file)
 
 android用户不要用最新的版本,也不要从Google Play安装,它们有莫名其妙的bug,不愿意用我的这个版本话,可以自行前往github clash 项目 发布页找 2.4.14版本下载apk手动安装
