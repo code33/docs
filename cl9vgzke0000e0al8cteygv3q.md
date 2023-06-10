@@ -67,7 +67,7 @@ windows系统安装必备~ .net依赖环境下载地址:
 
 clash net-下载地址:
 
-.net版下载地址2:
+[https://www.mediafire.com/file/m65fehd13172t3v/isl-Clash.NET.1.2.6.x64.Setup.exe/file](https://www.mediafire.com/file/m65fehd13172t3v/isl-Clash.NET.1.2.6.x64.Setup.exe/file)
 
 注意这是X64版本;
 
@@ -82,3 +82,5 @@ clash net-下载地址:
 ## android-opera 浏览器 访问境外网站,请勿使用国产浏览器
 
 ## windows-opera浏览器 访问境外网站,请勿使用国产浏览器
+
+[https://www.mediafire.com/file/h6l4wdkegragkac/OperaSetup\_20201021.exe/file](https://www.mediafire.com/file/h6l4wdkegragkac/OperaSetup_20201021.exe/file)
