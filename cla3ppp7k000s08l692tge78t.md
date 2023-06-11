@@ -32,6 +32,8 @@ tags: ios, 5bcp54gr566t, 6k6i6zif6k6572u
 8. vx or 邮箱地址填入付款备注(很重要)
     
 
+若会有登入卡住 安装卡住 ，再重启iOS设备后即可
+
 也可以直接点这里👇去推特看视频操作:
 
 https://twitter.com/BunmJyo/status/1587039706981638144?s=20&t=PJiaZEHV4ZYFVzE8ZNAJHw
