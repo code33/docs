@@ -1,5 +1,5 @@
 ---
-title: "翻强服务,工具下载 1.2"
+title: "翻强服务,工具下载 1.3"
 datePublished: Sun Oct 30 2022 14:51:11 GMT+0000 (Coordinated Universal Time)
 cuid: cl9vgzke0000e0al8cteygv3q
 slug: 11
@@ -19,11 +19,11 @@ code9627@gmail.com
 
 **纯洁#7690**
 
-这也是我的入口地址更短更好记 [sub.kshp.cc](http://sub.kshp.cc)
+这也是我的入口地址更短更好记 blog1.kshp.cc
 
-ios小火箭配置教程 👉 blog.grpchub.cc/ios
+ios小火箭配置教程 👉 blog1.kshp.cc/ios
 
-chatGPT登入操作教程 👉 blog.grpchub.cc/gpt
+chatGPT登入操作教程 👉 blog1.kshp.cc/gpt
 
 ## **自我介绍**
 
@@ -60,6 +60,10 @@ android用户不要用最新的版本,也不要从Google Play安装,它们有莫
 ## windows10.64位-dotnet5类库环境(安装win版clash必备工具,请先下载安装)
 
 windows系统安装必备~ .net依赖环境下载地址:
+
+[https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe](https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe)
+
+备用下载地址:
 
 [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer)
 
