@@ -33,7 +33,7 @@ chatGPT登入操作教程 👉 blog1.kshp.cc/gpt
 
 iOS没有安装小火煎的可以联系我免费协助安装,提前退出你的appid
 
-iOS教程一: https://blog.grpchub.cc/ios
+iOS教程一: https://blog1.kshp.cc/ios
 
 iOS教程二: https://wiki.kache.moe/2019/11/16/iOS-Shadowrocket/
 
@@ -59,11 +59,11 @@ android用户不要用最新的版本,也不要从Google Play安装,它们有莫
 
 ## windows10.64位-dotnet5类库环境(安装win版clash必备工具,请先下载安装)
 
-windows系统安装必备~ .net依赖环境下载地址:
+windows系统安装必备~ .net依赖环境加速-下载地址:
 
 [https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe](https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe)
 
-备用下载地址:
+dotnet5备用下载地址:
 
 [https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer)
 
