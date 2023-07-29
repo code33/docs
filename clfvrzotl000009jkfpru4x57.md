@@ -16,20 +16,22 @@ tags: clash
     
 2. MacOS 承接android流量设置: [https://www.jianshu.com/p/a40b4e18ddc6](https://www.jianshu.com/p/a40b4e18ddc6)
     
-3. 一台win10版本以上的PC,win7的机器 我木有,有的同学可以测下
+3. 软路由Openwrt承接android流量设置: [https://www.right.com.cn/forum/thread-2882648-1-1.html](https://www.right.com.cn/forum/thread-2882648-1-1.html)
     
-4. 按照如图所示配置: android 手机clash 打开后进入 "配置" -&gt; "覆写" 即可看到诸多参数
+4. 一台win10版本以上的PC,win7的机器 我木有,有的同学可以测下
     
-5. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685503493235/cd030546-8ebf-4703-8d66-69776f7c1c22.png align="center")
+5. 按照如图所示配置: android 手机clash 打开后进入 "配置" -&gt; "覆写" 即可看到诸多参数
     
-6. 配置图下载 [如图](https://grpc-generic.pkg.coding.net/a0/pub/clash-android-share-config-Screenshot_2023-03-31-07-15-31-077_Clash.png?version=v1) 👈点击它
+6. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685503493235/cd030546-8ebf-4703-8d66-69776f7c1c22.png align="center")
     
-7. WINDOWS 11 系统 可以 查看这篇说明进行操作, [https://ysslang.com:60443/setup-windows-proxy/](https://ysslang.com:60443/setup-windows-proxy/)
+7. 配置图下载 [如图](https://grpc-generic.pkg.coding.net/a0/pub/clash-android-share-config-Screenshot_2023-03-31-07-15-31-077_Clash.png?version=v1) 👈点击它
     
-8. 下方的是WIN10操作
+8. WINDOWS 11 系统 可以 查看这篇说明进行操作, [https://ysslang.com:60443/setup-windows-proxy/](https://ysslang.com:60443/setup-windows-proxy/)
     
-9. 电脑win端 按左下角的 win花键输入 proxy -&gt; 回车 如图所示 配置对应的参数后点击保存,注意这个IP地址得要是你手机的ip哦 ,一般的手机在WiFi清单中对某个WiFi选项的 小箭头 -&gt; 点击进去 即可查到你的WiFi局域网内的IP
+9. 下方的是WIN10操作
     
-10. 注意手机得和WiFi同一个网段
+10. 电脑win端 按左下角的 win花键输入 proxy -&gt; 回车 如图所示 配置对应的参数后点击保存,注意这个IP地址得要是你手机的ip哦 ,一般的手机在WiFi清单中对某个WiFi选项的 小箭头 -&gt; 点击进去 即可查到你的WiFi局域网内的IP
+    
+11. 注意手机得和WiFi同一个网段
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680220202426/7535ea6d-1a11-4940-a6ee-d9a3049c0fd6.png align="center")
