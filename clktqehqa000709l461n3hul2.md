@@ -3,7 +3,7 @@ title: "nodejs 基于mocha工具单元测试配置,with coffeescript"
 seoTitle: "nodejs testing coffee"
 datePublished: Wed Aug 02 2023 12:55:58 GMT+0000 (Coordinated Universal Time)
 cuid: clktqehqa000709l461n3hul2
-slug: nodejs-mochawith-coffeescript
+slug: node-mocha-coffee
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690979408882/edee3609-71e3-48cc-b0eb-fc50d19da42a.jpeg
 tags: nodejs, coffeescript, testing
 
@@ -17,7 +17,33 @@ idea
 
 coffeescript
 
-如图几个关键配置项文本在此贴上:
+先对项目中的package.json 把测试环境的依赖包整上:
+
+```javascript
+"devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/chai-as-promised": "^*",
+    "@types/expect": "^1.20.2",
+    "@types/mocha": "^2.2.43",
+    "bluebird": "^3.5.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "coffeescript": "*",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.0",
+    "rimraf": "^2.5.0"
+  },
+```
+
+然后执行一下依赖安装
+
+```bash
+npm install --registry=https://registry.npm.taobao.org
+```
+
+这样mocha测试依赖就完成了
+
+如图几个关键的idea 配置项文本在此贴上:
 
 node options:
 
