@@ -12,7 +12,7 @@ tags: clash
 
 前置条件:
 
-1. 已经购置好了 clash 的订阅链接 木有买的同学可以去找纯洁([邮件地址看这里](https://blog.grpchub.cc/11))
+1. 已经购置好了 clash 的订阅链接才能开展后续操作噢
     
 2. MacOS 承接android流量设置: [https://www.jianshu.com/p/a40b4e18ddc6](https://www.jianshu.com/p/a40b4e18ddc6)
     
