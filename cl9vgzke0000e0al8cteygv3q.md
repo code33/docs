@@ -1,5 +1,5 @@
 ---
-title: "翻强服务,工具下载 1.3"
+title: "翻强服务,工具下载 1.4"
 datePublished: Sun Oct 30 2022 14:51:11 GMT+0000 (Coordinated Universal Time)
 cuid: cl9vgzke0000e0al8cteygv3q
 slug: 11
@@ -57,31 +57,33 @@ android猫咪点此进入网盘下载👇:
 
 android用户不要用最新的版本,也不要从Google Play安装,它们有莫名其妙的bug,不愿意用我的这个版本话,可以自行前往github clash 项目 发布页找 2.4.14版本下载apk手动安装
 
-## windows10.64位-dotnet5类库环境(安装win版clash必备工具,请先下载安装)
-
-windows系统安装必备~ .net依赖环境加速-下载地址:
-
-[https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe](https://download.visualstudio.microsoft.com/download/pr/e6e9c212-f8ca-4c4d-86be-ecc8d99ba2fe/89c828c00d5b59d4d4d120455433c22d/dotnet-runtime-5.0.5-win-x64.exe)
-
-dotnet5备用下载地址:
-
-[https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.408-windows-x64-installer)
-
 ## Windows10-64位 注意使用时 "系统代理" "允许局域网" 保持开启 , 但<mark>请勿</mark>打开它的"增强模式"
 
-clash net-下载地址:
+clash windows-下载地址:
 
-[https://www.mediafire.com/file/m65fehd13172t3v/isl-Clash.NET.1.2.6.x64.Setup.exe/file](https://www.mediafire.com/file/m65fehd13172t3v/isl-Clash.NET.1.2.6.x64.Setup.exe/file)
+[https://www.mediafire.com/file/45bc4obww9pq7la/Clash.Verge\_1.3.7\_x64\_portable.zip/file](https://www.mediafire.com/file/45bc4obww9pq7la/Clash.Verge_1.3.7_x64_portable.zip/file)
 
 注意这是X64版本;
 
 导入订阅操作
 
-![clash_setting.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667610032128/hJDjFjXMA.jpg align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697065206426/c7686343-7f5e-4f62-b2ef-89cc865b472a.png align="center")
 
-如图,主界面配置开关,增强模式不要点亮,其它2个点亮
+如图,设置选项:
 
-![disablePlus.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1667609018771/YAMcGCbRg.jpg align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1697065259876/c9cc35a9-8938-493f-a690-aa9f2c249953.png align="center")
+
+将settings设置中的三项开启即可
+
+allow lan
+
+system proxy
+
+silent start
+
+若是要自动启动, 开启 auto launch 选项就行
+
+ok了后,clash左下角有代理网速的曲线跳动,和实时数值
 
 ## android-opera 浏览器 访问境外网站,请勿使用国产浏览器
 
