@@ -36,3 +36,7 @@ grpcurl -d '{"name":"YOyo"}' -plaintext 127.0.0.1:50873 greet.Greeter.SayHello
   "message": "Hello YOyo~ !"
 }
 ```
+
+grpcurl的下载这里:
+
+[https://github.com/fullstorydev/grpcurl/releases](https://github.com/fullstorydev/grpcurl/releases)
