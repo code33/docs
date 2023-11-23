@@ -27,3 +27,12 @@ if (env.IsDevelopment())
    app.MapGrpcReflectionService();
 }
 ```
+
+然后就可以用grpcurl调用了哦
+
+```bash
+grpcurl -d '{"name":"YOyo"}' -plaintext 127.0.0.1:50873 greet.Greeter.SayHello
+{
+  "message": "Hello YOyo~ !"
+}
+```
