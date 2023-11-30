@@ -42,4 +42,33 @@ network:
   renderer: NetworkManager
 ```
 
-其实呐,这个网卡设置中的
+其实呐,这个网卡设置中的操作是物理机设置的方案
+
+还有个是VPS的方案即IP地址已经给分配好了,只需要手动配置DNS服务即可
+
+打开 配置文件 `vim /etc/systemd/resolved.conf`
+
+设置好了后记得充值网卡设置生效
+
+`systemctl restart systemd-resolved.service`
+
+```bash
+[Resolve]
+DNS=223.5.5.5
+DNS=8.8.4.4
+#FallbackDNS=
+#Domains=
+#LLMNR=no
+#MulticastDNS=no
+#DNSSEC=no
+#Cache=yes
+#DNSStubListener=yes
+```
+
+设置完成并重启网卡配置服务后,可以ping一下域名看看响应时间
+
+更多合适的DNS服务地址可以自己去这个网站测试,
+
+香港: `public-dns.info/nameserver/hk.html`
+
+全球: `public-dns.info`
