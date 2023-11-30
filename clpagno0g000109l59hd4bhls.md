@@ -1,5 +1,5 @@
 ---
-title: "让grpc项目支持postman or grpcurl 接口调试"
+title: "让grpc项目支持postman or grpcurl 接口命令行,命令调试"
 datePublished: Thu Nov 23 2023 00:34:04 GMT+0000 (Coordinated Universal Time)
 cuid: clpagno0g000109l59hd4bhls
 slug: grpcpostman-or-grpcurl
