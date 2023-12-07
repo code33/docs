@@ -1,8 +1,8 @@
 ---
-title: "启动dotnet server服务项目with envname 环境变量"
+title: "启动dotnet server服务项目with envname 环境变量1.1"
 datePublished: Sun Dec 03 2023 18:05:19 GMT+0000 (Coordinated Universal Time)
 cuid: clppsm3nb000009jo61fqb07f
-slug: dotnet-serverwith-envname
+slug: dotnet-serverwith-envname-11
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701626657995/dae875a1-ff31-4466-8415-954908095159.jpeg
 tags: dotnet-startup, startup-with-env
 
@@ -12,7 +12,37 @@ tags: dotnet-startup, startup-with-env
 
 于是把源码放到Linux下run了一下,加环境变量 在 Properties文件夹 果然一样的报错,找不到对应的配置项xxx啥的;
 
-解决这个配置项启动环境变量忘记更改的沙雕行为,写一个用环境变量启动的startup脚本
+1.1 重新更迭一个版本,替换掉之前那个,无需jq的函数亦可,直接走sed的正则匹配更加简便
+
+```bash
+#!/bin/bash
+
+propeJson='Properties/launchSettings.json'
+
+value=$(grep -o '"ASPNETCORE_ENVIRONMENT": *"[^"]*"' ${propeJson} | awk -F'"' '{print $4}')
+
+#thatEnv='Production'
+# thatEnv='Development'
+runEnv=''
+if [ $# -ne 0 ]; then
+    # 有输入参数
+    runEnv=$1
+else
+    # 没有输入参数,就用默认值
+#    runEnv="Production"
+
+   runEnv="Development"
+fi
+
+echo "$value"
+#dotnet run --environment Development #environment Production
+
+sed -i "s/\"ASPNETCORE_ENVIRONMENT\":.*\$/\"ASPNETCORE_ENVIRONMENT\": \"$runEnv\"/" "${propeJson}"
+
+dotnet run --environment ${runEnv}
+```
+
+**已经废弃这个版本需要jq太复杂了**`解决这个配置项启动环境变量忘记更改的沙雕行为,写一个用环境变量启动的startup脚本`
 
 ```bash
 #!/bin/bash
@@ -52,7 +82,7 @@ dotnet run
 使用方法
 
 ```bash
-./startup.sh 
+./startup.sh
 ```
 
 或者
