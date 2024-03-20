@@ -1,14 +1,53 @@
-# postgresql 存储过程函数 随机字符指定规则生成
+---
+title: "postgresql 存储过程函数 随机字符指定规则生成"
+datePublished: Thu Dec 01 2022 07:31:13 GMT+0000 (Coordinated Universal Time)
+cuid: clb4rd0l2001308ms0emb9hfj
+slug: pg-random-function
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669879962231/0p-AsszMz.png
+tags: function, postgresql, random
 
-内容比较多,可以自己逐一拨开,也可以一股脑的全部执行;
-文件下载地址:
-[FileDownload-ClickHere](https://blserver01-generic.pkg.coding.net/amy/genpub/db-init-script.sql?version=FR022343H48)
+---
 
+内容比较多,可以自己逐一拨开,也可以一股脑的全部执行; 文件下载地址: [FileDownload-ClickHere](https://blserver01-generic.pkg.coding.net/amy/genpub/db-init-script.sql?version=FR022343H48)
 
 使用方法后续给贴上
-```
+
+```bash
+-- source: http://www.jamiebegin.com/base36-conversion-in-postgresql/
 DO $$ begin raise notice '%',''||'========================== 华丽的标题分割线 ======base36_encode===================='; end; $$;
- -- 将int整型数值转为字符串型的36进制
+
+--create schema IF NOT EXISTS  activiti; comment on schema activiti is 'activiti业务模块';
+
+--create schema IF NOT EXISTS  amycore; comment on schema amycore is 'protoPpart业务核心模块';
+
+--create schema IF NOT EXISTS auth; comment on schema auth is '鉴权模块';
+
+--create schema IF NOT EXISTS  betty; comment on schema betty is '佣金储值模块';
+
+--create schema IF NOT EXISTS  promo; comment on schema promo is '推广收录模块';
+
+-- promo
+-- promo-batch  批次的增删查改
+----- end-time      此批优惠码-有效截止日期
+----- code-count    本批次的发行数量-优惠码的数量
+----- amount    本批次的发行金额-优惠码的金额
+----- create-by-usn   批次的发行人 usn
+----- effc_times  可用次数
+----- used_times 已用次数
+-- promo-code  优惠码码基于批次的发行代金券
+----- promote  邀请人/介绍人
+----- invitee  受邀人/被邀人
+-- promo-scanrecord 扫码记录
+-- promo-writeoff 优惠码核销记录
+----- contact 手机号/微信号/电子邮箱
+----- order_sn 对应的订单序号
+----- order_code 对应的订单编号
+-- promo-send
+----- target_type email phone
+----- target_no   emailAddr phoneNumber
+----- target_usn  usn
+
+
 CREATE OR REPLACE FUNCTION base36_encode(IN digits bigint, IN min_width int = 0)
    RETURNS varchar AS $$
 DECLARE
@@ -74,7 +113,7 @@ DO $$ begin raise notice '%',''||'========================== 华丽的分割线 
 
 -- 获取总长度为re_length的字符串,其中除给定的prefix外,其他值均随机.
 -- 随机范围 [0-9A-Z]
-DROP FUNCTION IF EXISTS random_string_32( INTEGER, VARCHAR );
+--DROP FUNCTION IF EXISTS random_string_32( INTEGER, VARCHAR );
 CREATE or replace FUNCTION random_string_32(re_length INTEGER, prefix CHARACTER VARYING)
    RETURNS TEXT
 
@@ -380,6 +419,8 @@ $$;
 
 DO $$ begin raise notice '%',''||'========================== 华丽的分割线 =======random_string_custype--created==================='; end; $$;
 
+
+DO $$ begin raise notice '%',''||'========================== 华丽的分割线 =======random_string_presn--creating==================='; end; $$;
 CREATE or replace FUNCTION random_string_presn (prefix varchar(55) default 'A', re_length integer DEFAULT 8,pooltype integer DEFAULT 32 ) RETURNS text
    LANGUAGE plpgsql
 AS $$
@@ -390,14 +431,110 @@ DECLARE
    prefix_len INTEGER :=0;
    random_len INTEGER :=0;
    idx        INTEGER :=0;
+   year_len   INTEGER :=3;
 BEGIN
 
-   select random_string_custype(pooltype,re_length,prefix||right(to_char(current_date, 'YYYY'), 3)||right(('00'||DATE_PART('doy',(current_date))),3)) into result;
+   if re_length < 15 then
+      year_len=2;
+   end if;
+
+   select random_string_custype(pooltype,re_length,prefix||right(to_char(current_date, 'YYYY'), year_len)||right(('00'||DATE_PART('doy',(current_date))),3)) into result;
 
    RETURN result;
 END;
 
-$$
+$$;
+
+CREATE or replace FUNCTION random_lite_presn (prefix varchar(55) default 'A', re_length integer DEFAULT 8,pooltype integer DEFAULT 32 ) RETURNS text
+   LANGUAGE plpgsql
+AS $$
+DECLARE
+   char_pool  TEXT []:='{}';
+   result     TEXT := '';
+   i          INTEGER := 0;
+   prefix_len INTEGER :=0;
+   random_len INTEGER :=0;
+   idx        INTEGER :=0;
+   year_len   INTEGER :=2;
+BEGIN
+
+   select random_string_custype(pooltype,re_length,prefix||right(to_char(current_date, 'YYYY'), year_len)||right(('00'||DATE_PART('doy',(current_date))),3)) into result;
+
+   RETURN result;
+END;
+
+$$;
+
+
+
+DO $$ begin raise notice '%',''||'========================== 华丽的分割线 =======fn_get_hour_of_year--creating==================='; end; $$;
+CREATE OR REPLACE FUNCTION fn_get_hour_of_year()
+   RETURNS INTEGER AS $$
+DECLARE
+   current_hour INTEGER;
+   current_day_of_year INTEGER;
+BEGIN
+   SELECT EXTRACT(HOUR FROM NOW()) INTO current_hour;
+   SELECT EXTRACT(DOY FROM NOW()) INTO current_day_of_year;
+
+   RETURN (current_day_of_year - 1) * 24 + current_hour;
+END;
+$$ LANGUAGE plpgsql;
+
+DO $$ begin raise notice '%',''||'========================== 华丽的分割线 =======fn_convert_to_money--created==================='; end; $$;
+
+CREATE OR REPLACE FUNCTION fn_convert_to_money(integer_value INTEGER)
+   RETURNS VARCHAR AS $$
+DECLARE
+   decimal_value DECIMAL;
+   currency_string VARCHAR;
+BEGIN
+   -- 将整数值除以 100，转换为带有两位小数的 decimal 值
+   decimal_value := integer_value / 100.0;
+
+   -- 使用 TO_CHAR 函数将 decimal 值格式化为金额形式的字符串
+   currency_string := TO_CHAR(decimal_value, 'FM9999999999.00');
+
+   -- 根据条件进行尾部补充
+   IF POSITION('.' IN currency_string) > 0 THEN
+      -- 小数点后有1位数字，尾部补充1个0
+      IF LENGTH(SUBSTRING(currency_string FROM POSITION('.' IN currency_string) + 1)) = 1 THEN
+         currency_string := currency_string || '0';
+      END IF;
+   ELSE
+      -- 小数点后为空，尾部补充2个0
+      currency_string := currency_string || '00';
+   END IF;
+
+   if decimal_value < 1 then
+      currency_string :=  '0'||currency_string ;
+   end if;
+   currency_string:='¥'||currency_string;
+   RETURN currency_string;
+END;
+$$ LANGUAGE plpgsql;
+
+DO $$ begin raise notice '%',''||'========================== 华丽的分割线 =======random_num--created==================='; end; $$;
+CREATE OR REPLACE FUNCTION random_num(length INT)
+   RETURNS TEXT AS $$
+DECLARE
+   result TEXT := '';
+   i INT;
+BEGIN
+   FOR i IN 1..length LOOP
+         result := result || floor(random() * 10)::INT;
+      END LOOP;
+
+   RETURN result;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
 --     LANGUAGE 'plpgsql' VOLATILE;
 
-``` 
+--COMMENT ON FUNCTION random_string_custype(integer,integer,varchar(10)) is '随机字符串';
+-- nf&cf: select random_string_custype(32,9,'S'||right(to_char(current_date, 'YYYY'), 3)||right(('00'||DATE_PART('doy',(current_date))),3)) as nf;
+-- dt&rc: select random_string_custype(36,12,'S'||right(to_char(current_date, 'YYYY'), 3)||right(('00'||DATE_PART('doy',(current_date))),3)) as dt;
+-- lg&hi: select random_string_custype(62,14,'S'||right(to_char(current_date, 'YYYY'), 3)||right(('00'||DATE_PART('doy',(current_date))),3)) as lg;
+```
