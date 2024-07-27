@@ -17,11 +17,15 @@ tags: postgresql, docker, backup
 ```bash
 #!/usr/bin/env bash
 
-CONT_NAME="hdzpg-prod" # docker容器名
-DB_NAME="victoria"     # postgresql-DB名
-FILE_NAME="vicdb"      # 备份后的文件名
+CONT_NAME="hdzpg-prod" # PG的容器名
+DB_NAME="victoria"     # PG的DB名
+FILE_NAME="vicdb"      # 备份的文件名
+BASE_PATH="/home/appsrv/bak" # 备份至路径
 # 备份ald数据库在容器内
 docker exec -it $CONT_NAME su - postgres -c "pg_dump -U postgres -F c -b -v ${DB_NAME} | gzip > /var/lib/postgresql/bak_${FILE_NAME}_$(date +%Y%m%d).gz"
+
+# 列出ald数据库备份文件名
+#file1=$(docker exec -it $CONT_NAME su - postgres -c 'ls -t /var/lib/postgresql | head -n 1')
 
 output=$(docker exec -it $CONT_NAME su - postgres -c "ls -t /var/lib/postgresql/*.gz | head -n 1")
 # 检查并过滤掉不需要的信息
@@ -29,16 +33,15 @@ if [[ $output == *"/var/lib/postgresql/"* ]]; then
   # 使用字符串截取获取文件路径
    file_path=${output#*"/var/lib/postgresql/"}
    file_path="/var/lib/postgresql/$file_path"
-   cmd="docker cp $CONT_NAME:/var/lib/postgresql/bak_${FILE_NAME}_$(date +%Y%m%d).gz ${HOME}/bak"
+   cmd="docker cp $CONT_NAME:/var/lib/postgresql/bak_${FILE_NAME}_$(date +%Y%m%d).gz ${BASE_PATH}"
    eval "$cmd"
-   /usr/bin/scp ${HOME}/bak/bak_${FILE_NAME}_$(date +%Y%m%d).gz n1a-root:/data/private-writable
+   # scp传输到其它设备上
+   /usr/bin/scp ${BASE_PATH}/bak_${FILE_NAME}_$(date +%Y%m%d).gz n1a-root:/data/private-writable
 else
   echo "No .gz files found in the directory."
   exit 1
 fi
 
-
 # 打印文件路径
 echo "$file_path"
-    
 ```
