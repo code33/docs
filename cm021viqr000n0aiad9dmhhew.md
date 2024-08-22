@@ -14,11 +14,13 @@ tags: appstore, appstore-gift
     
 2. 注册一个米国区的appid,推荐使用谷歌邮箱 gmail or 微软邮箱 outlook
     
-3. 构建一个米国阿拉斯加地区的地址 很重要,阿拉斯加确定是免税州, [https://www.meiguodizhi.com/usa-address/alaska](https://www.meiguodizhi.com/usa-address/alaska)
+3. 注意哦,这里的内容是填入到AppStore中的信息,并非AppID的注册信息,注册AppID的时候,电话号码,必须得是真实有效你自己的电话不要搞混了
+    
+    构建一个米国阿拉斯加地区的地址 很重要,阿拉斯加确定是免税州, [https://www.meiguodizhi.com/usa-address/alaska](https://www.meiguodizhi.com/usa-address/alaska)
     
     把它的内容抄下来,注意其阿拉斯加的电话区号是前三位,
     
-    +14370037706 网站内的电话是这个,但是你申请米国appid时应填写内容为 +1437003770 最后一位是分机号,在注册appid 的时候不需要填写,否则苹果网站会报错,信用卡内容可以填无,也不排除在购买的时候要求填写信用卡,反正地址信息+信用卡信息 都抄录到自己的本文文件或自己的电子邮件中保存, appid 申请成功后进入下一步
+    +14370037706 网站内的电话是这个,这个号码是发票联系人的电话号码,最后一位是分机号,登记发票信息的时候,可以去除,但是你申请米国appid时应填写内容为 +86135aaaabbbb即本人用户的手机号 ,在注册appid 的时候不需要填写,否则苹果网站会报错,信用卡内容可以填无,也不排除在购买的时候要求填写信用卡,反正地址信息+信用卡信息 都抄录到自己的本文文件或自己的电子邮件中保存, appid 申请成功后进入下一步
     
 4. 好了后去找入金的AppStore 代金券充值网店 PockytShop [https://shop.pockyt.io/pc/home](https://shop.pockyt.io/pc/home) 默认英文可以切换它的网店语言
     
